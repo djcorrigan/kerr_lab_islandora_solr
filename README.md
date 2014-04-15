@@ -10,6 +10,7 @@ Added fields for indexing Drupal content as well as Fedora content (using code f
 Custom search results for Drupal content (URLs and custom thumbnails) (in theme/theme.inc)
 Indexing capabilities for Islandora Lab Objects:
   xml/islandora_transforms/EML_to_solr.xslt transforms EML XML to Solr XML (used for objects from the Specimen Solution Pack - https://github.com/ncphillips/islandora_lab_object_specimen)
+  
   xml/islandora_transforms/fraction_to_solr.xslt transforms the Fraction datastream to Solr XML (used for objects from the Fraction Solution Pack - https://github.com/ncphillips/islandora_lab_object_fraction)
   xml/islandora_transforms/person_mads_to_solr.xslt transforms the MADS datastream to Solr XML (used for objects from the Base Solution Pack with the Person content model - https://github.com/ncphillips/islandora_bioinformatics_base)
   xml/islandora_transforms/project_mads_to_solr.xslt transforms the MADS datastream to Solr XML (used for objects from the Base Solution Pack with the Project content model - https://github.com/ncphillips/islandora_bioinformatics_base)
