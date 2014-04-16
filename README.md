@@ -22,7 +22,7 @@ Indexing capabilities for Islandora Lab Objects:
   xml/islandora_transforms/project_mads_to_solr.xslt transforms the MADS datastream to Solr XML (used for objects from the Base Solution Pack with the Project content model - https://github.com/ncphillips/islandora_bioinformatics_base)
   
   xml/islandora_transforms/foxmlToSolr.xslt completes the transformation process
-    foxmlToSolr.xslt must be placed in <gsearch-home>/WEB-INF/classes/fgsconfigFinal/index/FgsIndex
+    foxmlToSolr.xslt must be placed in <gsearch-home>/WEB-INF/classes/fgsconfigFinal/index/FgsIndex and requires links to the Islandora Transforms listed above
 
 Installed the Islandora Geo Display Profile for searching coordinates (islandora_solr_geo)
 
