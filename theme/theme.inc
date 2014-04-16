@@ -8,6 +8,9 @@
    Added custom thumbnails for Drupal search results 
    Edited by Evan Jackson
    April 12 2014
+   Added more custom thumbnails 
+   Edited by Evan Jackson
+   April 15 2014
    Added more custom thumbnails */
 
 /**
@@ -88,7 +91,7 @@ function islandora_solr_preprocess_islandora_solr(&$variables) {
         $result['thumbnail_url'] = 'sites/default/files/search_thumbnails/spreadsheet.png';
       else if ($content_type == 'Word/Text Document') //content type: word/text document
         $result['thumbnail_url'] = 'sites/default/files/search_thumbnails/document_text.png';
-      else if ($content_type == 'Book page') //content type: book page
+      else if ($content_type == 'Notebook') //content type: book page
 	$result['thumbnail_url'] = 'sites/default/files/search_thumbnails/book.png';
       else if ($content_type == 'Calendar Event') //content type: calendar event
 	$result['thumbnail_url'] = 'sites/default/files/search_thumbnails/calendar.png';
