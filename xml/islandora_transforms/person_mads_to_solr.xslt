@@ -1,5 +1,5 @@
 <!--
-  Written by Quinton Dawson
+  Written by Quintin Dawson
   Edited by Evan Jackson
 --!>
 
